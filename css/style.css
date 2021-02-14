@@ -1,0 +1,41 @@
+@import "reset.css";
+@import "variables.css";
+/* Components */
+@import "components/bg-images.css";
+@import "components/status-bar.css";
+@import "components/user-component.css";
+@import "components/icon-row.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/bar-fixed.css";
+@import "components/badge.css";
+
+/*Screens*/
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+
+/*font*/
+@font-face{
+    font-family: 'HeirofLightRegular';
+    src: url("../font/HeirofLightRegular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url("../font/HeirofLightBold.ttf") format('truetype');
+}
+
+body{
+    font-family:HeirofLightRegular;
+    color:#2e363e;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+}
+.main-screen{
+    padding:0px var(--horizontal-space);
+}
+.top-bottom-padding{
+    padding-top:120px;
+    padding-bottom: 70px;
+}

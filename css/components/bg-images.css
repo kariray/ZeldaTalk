@@ -1,0 +1,9 @@
+#bg-images{
+    width: 100%;
+    background-image:url(../../images/nav-bar2.png),
+    url(../../images/cloud.png),
+    linear-gradient(var(--skyblue),var(--skyblue2),var(--skyblue3),var(--skyblue4));
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 93%,45%;
+}

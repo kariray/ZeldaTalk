@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Mipha</title>
+</head>
+
+<body id="chat-screen" class="mipha-chat">
+    <!-- <div class="status-bar-fixed"> -->
+    <div id="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:42</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <!-- </div> -->
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Mipha</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Thursday, February 11, 2021
+        </div>
+
+        <div class="message-row">
+            <div class="message-row__img">
+                <img src="images/Mipha.jpg">
+            </div>
+            <div class="message-row__content">
+                <span class="message__author">Mipha</span>
+                <div class="message__info">
+                    <span class="message__bubble">Do you know where is Zelda?</span>
+                    <span class="message__time">13:00</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <div class="message-row__img">
+                <img src="images/Mipha.jpg">
+            </div>
+            <div class="message-row__content">
+                <span class="message__author">Mipha</span>
+                <div class="message__info">
+                    <span class="message__bubble">I can't see her.</span>
+                    <span class="message__time">13:01</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">What's Problem?</span>
+                    <span class="message__time">13:07</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <div class="message-row__img">
+                <img src="images/Mipha.jpg">
+            </div>
+            <div class="message-row__content">
+                <span class="message__author">Mipha</span>
+                <div class="message__info">
+                    <span class="message__bubble">I should talk about Vah Ruta with her.</span>
+                    <span class="message__time">13:08</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">She maybe in the cafeteria.</span>
+                    <span class="message__time">13:09</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <div class="message-row__img">
+                <img src="images/Mipha.jpg">
+            </div>
+            <div class="message-row__content">
+                <span class="message__author">Mipha</span>
+                <div class="message__info">
+                    <span class="message__bubble">Oh, thank you!</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <div class="message-row__img">
+            </div>
+            <div class="message-row__content">
+                <span class="message__author">Mipha</span>
+                <div class="message__info">
+                    <span class="message__bubble">And... Do you have a time this weekend?</span>
+                    <span class="message__time">13:10</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">May be. Why?</span>
+                    <span class="message__time">13:12</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <div class="message-row__img">
+                <img src="images/Mipha.jpg">
+            </div>
+            <div class="message-row__content">
+                <span class="message__author">Mipha</span>
+                <div class="message__info">
+                    <span class="message__bubble">Would you go to sea?</span>
+                    <span class="message__time">13:13</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Sure. I'll call the others.</span>
+                    <span class="message__time">13:12</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <div class="message-row__img">
+                <img src="images/Mipha.jpg">
+            </div>
+            <div class="message-row__content">
+                <span class="message__author">Mipha</span>
+                <div class="message__info">
+                    <span class="message__bubble">Haha.. Ok..</span>
+                    <span class="message__time">13:15</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/aea9b7ed9f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

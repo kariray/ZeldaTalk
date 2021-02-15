@@ -23,6 +23,10 @@
     justify-content: space-between;
     color:rgba(0, 0, 0, 0.5);
 }
+.friends-black span,
+.friends-black i{
+    color:black;
+}
 
 .friends-list{
     margin-bottom: 20px;
@@ -37,7 +41,8 @@
     }
 }
 #splash-screen{
-    background-color: var(--yellow);
+    z-index: 99;
+    background-color: #fdfaf5;
     position: absolute;
     height:100vh;
     width: 100vw;
@@ -45,7 +50,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 132px;
     animation: higeSplashScreen 0.3s ease-in-out forwards;
-    animation-delay: 2s;
+    animation-delay: 1.2s;
 }

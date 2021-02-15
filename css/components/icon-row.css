@@ -1,6 +1,8 @@
 .find-row{
     display: flex;
     justify-content: space-between;
+    color:var(--fontcolor);
+    margin-top:20px;
 }
 .find-row__icon{
     display: flex;

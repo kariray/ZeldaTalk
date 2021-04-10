@@ -12,27 +12,27 @@
 
 * github-page : [https://kariray.github.io/ZeldaTalk/]
 
-**ZeldaTalk Screenshots**
+### ZeldaTalk Screenshots
 
-* **Login**
+#### Login
 ![](https://i.imgur.com/WWQV4GR.png)
 
 
-* **Friends**
+#### Friends
 ![](https://i.imgur.com/lWKs0Lh.png)
 
 
-* **Chat**
+#### Chat
 ![](https://i.imgur.com/cVWtO4K.png)
 
-* **Find**
+#### Find
 ![](https://i.imgur.com/xHbDsck.png)
 
 
-* **More**
+#### More
 ![](https://i.imgur.com/uBqqOMg.png)
 
 
-* **Screen Size Control**
+#### Screen Size Control
 ![](https://i.imgur.com/MTbaDjm.png)
 
